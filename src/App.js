@@ -13,9 +13,9 @@ const initialState = {
   answerOptions: [],
   answer: '',
   answersCount: {
-    Nintendo: 0,
-    Microsoft: 0,
-    Sony: 0
+    'Sprinter': 0,
+    'Mid-distance runner': 0,
+    'Long-distance runner': 0
   },
   result: ''
 };
@@ -31,31 +31,11 @@ class App extends Component {
   }
 
   componentWillMount() {
-    const shuffledAnswerOptions = quizQuestions.map((question) => this.shuffleArray(question.answers));
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: shuffledAnswerOptions[0]
+      answerOptions: quizQuestions[0].answers
     });
   }
-
-  shuffleArray(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-
-    return array;
-  };
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
@@ -102,9 +82,9 @@ class App extends Component {
 
   setResults(result) {
     if (result.length === 1) {
-      this.setState({ result: 'You prefer ' + result[0] });
+      this.setState({ result: 'You truly are a ' + result[0] });
     } else {
-      this.setState({ result: 'It is a tie between ' + result[0] + ' and ' + result[1]});
+      this.setState({ result: 'You are a hybrid of a ' + result[0] + ' and a ' + result[1]});
     }
   }
 
