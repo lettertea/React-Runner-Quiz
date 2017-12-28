@@ -31,6 +31,7 @@ class App extends Component {
   }
 
   componentWillMount() {
+    document.title = 'Runner Type Quiz'
     this.setState({
       question: quizQuestions[0].question,
       answerOptions: quizQuestions[0].answers
@@ -119,7 +120,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2>What Type of Runner Are You?</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
