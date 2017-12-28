@@ -1,86 +1,86 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
+      question: "How do you like your workout?",
       answers: [
           {
-              type: "Microsoft",
-              content: "Halo"
+              type: "Mid-distance runner",
+              content: "Intense, exciting, and agonizing."
           },
           {
-              type: "Nintendo",
-              content: "Pokemon"
+              type: "Sprinter",
+              content: "As quick as possible--including how long I'm running."
           },
           {
-              type: "Sony",
-              content: "Uncharted"
+              type: "Long-distance runner",
+              content: "Long enough so that I can settle into a rhythm."
           }
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
+      question: "How important are the technical details?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box"
+              type: "Sprinter",
+              content: "Very much. It's necessary to have everything in place to maximize efficiency."
           },
           {
-              type: "Nintendo",
-              content: "Nintendo 64"
+              type: "Mid-distance runner",
+              content: "It's important, but a some imperfections are okay."
           },
           {
-              type: "Sony",
-              content: "Playstation 1"
+              type: "Long-distance runner",
+              content: "It helps, but heart and resilience are the focuses."
           }
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
+      question: "What would you rather hear?",
       answers: [
           {
-              type: "Microsoft",
-              content: "Forza"
+              type: "Sprinter",
+              content: "Wait--when did you get here?"
           },
           {
-              type: "Nintendo",
-              content: "Mario Kart"
+              type: "Long-distance runner",
+              content: "Are you still running?"
           },
           {
-              type: "Sony",
-              content: "Gran Turismo"
+              type: "Mid-distance runner",
+              content: "Wow, how fast can you run the mile?"
           }
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "What type of shoes would you rather wear?",
       answers: [
           {
-              type: "Microsoft",
-              content: "BioShock"
+              type: "Long-distance runner",
+              content: "Traditional running shoes. You can wear them anywhere and still be comfortable."
           },
           {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              type: "Sprinter",
+              content: "Stiff spikes that will react to my every movement. It's like an engine on my feet."
           },
           {
-              type: "Sony",
-              content: "Final Fantasy VII"
+              type: "Mid-distance runner",
+              content: "Why not both? Cushiony spikes feel nice."
           }
       ]
   },
   {
-      question: "What console would you prefer to own?",
+      question: "What is your subtle humble brag?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box One"
+              type: "Mid-distance runner",
+              content: "I can run 6 miles, but I'd rather do 3 in a quarter of the time it'd take me to do the 6."
           },
           {
-              type: "Nintendo",
-              content: "Wii U"
+              type: "Long-distance Runner",
+              content: "6 miles, 12 miles, 24 miles--it doesn't matter. Just tell me in advance so I know how much food to bring on the run."
           },
           {
-              type: "Sony",
-              content: "Playstation 4"
+              type: "Sprinter",
+              content: "I can run away fast enough if I get chased like in the movies. But if it's longer than 400 meters, then I'm probably dead."
           }
       ]
   }
