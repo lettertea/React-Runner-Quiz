@@ -75,7 +75,7 @@ var quizQuestions = [
               content: "I can run 6 miles, but I'd rather do 3 in a quarter of the time it'd take me to do the 6."
           },
           {
-              type: "Long-distance Runner",
+              type: "Long-distance runner",
               content: "6 miles, 12 miles, 24 miles--it doesn't matter. Just tell me in advance so I know how much food to bring on the run."
           },
           {
