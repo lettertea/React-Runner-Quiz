@@ -1,6 +1,6 @@
 var quizQuestions = [
   {
-      question: "How do you like your workout?",
+      question: "How do you like your workouts?",
       answers: [
           {
               type: "Mid-distance runner",
