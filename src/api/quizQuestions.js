@@ -8,7 +8,7 @@ var quizQuestions = [
           },
           {
               type: "Sprinter",
-              content: "As quick as possible--including how long I'm running."
+              content: "As quick as possible. I don't like running a lot."
           },
           {
               type: "Long-distance runner",
@@ -25,7 +25,7 @@ var quizQuestions = [
           },
           {
               type: "Mid-distance runner",
-              content: "It's important, but a some imperfections are okay."
+              content: "It's important, but some imperfections are okay."
           },
           {
               type: "Long-distance runner",
