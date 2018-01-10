@@ -80,7 +80,7 @@ var quizQuestions = [
           },
           {
               type: "Sprinter",
-              content: "I can run away fast enough if I get chased like in the movies. But if it's longer than 400 meters, then I'm probably dead."
+              content: "If I get chased like in the movies, I'm probably going to be okay. But the moment it becomes 401 meters, then I'm probably dead."
           }
       ]
   }
