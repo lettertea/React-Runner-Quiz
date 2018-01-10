@@ -83,7 +83,7 @@ class App extends Component {
 
   setResults(result) {
     if (result.length === 1) {
-      this.setState({ result: 'You are true ' + result[0]});
+      this.setState({ result: 'You are a pure ' + result[0]});
     } else {
       this.setState({ result: 'You are a hybrid of a ' + result[0] + ' and a ' + result[1]});
     }
