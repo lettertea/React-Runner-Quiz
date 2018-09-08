@@ -1,3 +1,4 @@
+Based off of Mitch Gavan's [tutorial](https://mitchgavan.com/react-quiz/).
 # React-Runner-Quiz
 Live demo [here](https://runner-quiz.surge.sh/).
 
